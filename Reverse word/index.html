@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reverse</title>
+  </head>
+  <body>
+    <h2>Reverse the string in real time with decrement for loop</h2>
+    <input type="text" id="reversTheName" onkeyup="reverseString()" />
+    <input type="text" name="" id="showData" />
+    <script>
+      function reverseString() {
+        var str = document.getElementById("reversTheName").value;
+        var newString = "";
+
+        for (var i = str.length - 1; i >= 0; i--) {
+          newString += str[i];
+        }
+        document.getElementById("showData").value = newString;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#demo {
+  text-align: center;
+  position: relative;
+  top: 10em;
+}
+
+body {
+  background-color: royalblue;
+  color: black;
+}
